@@ -24,13 +24,13 @@ export default function CallToActionWithAnnotation() {
           as={Box}
           textAlign={'center'}
           spacing={{ base: 8, md: 7 }}
-          py={{ base: 8, md: 15 }}>
+          >
           
           <Center mt={100} mb={-5}><Img src='SAFERMOON-cmk.png' width='100px' height='100px' borderRadius='50px' /></Center>
 
           <Heading
             fontWeight={700}
-            fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
+            fontSize={{ base: '4xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}
             color={'white'}
           >
@@ -51,32 +51,13 @@ export default function CallToActionWithAnnotation() {
             align={'center'}
             alignSelf={'center'}
             position={'relative'}>
-            <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue('gray.800', 'gray.300')}
-                w={71}
-                position={'absolute'}
-                right={-250}
-                top={'50px'}
-              />
-              <Text
-                fontSize={'lg'}
-                fontFamily={'Caveat'}
-                position={'absolute'}
-                right={'-300px'}
-                top={'15px'}
-                transform={'rotate(10deg)'}
-                color={'white'}>
-                Get your airdrop!
-              </Text>
-            </Box>
+            
           </Stack>
         </Stack>
         
-          <Center><iframe src="https://form.jotform.com/212361247055146" frameBorder="0" scrolling="no" height="450px"></iframe></Center>
+          <Center><iframe src="https://form.jotform.com/212361247055146" frameBorder="0" scrolling="no" height='450px'></iframe></Center>
           
-      <Box pb={1000}/>
+      <Box pb={{base: 50, md: 1000, sm: 1000}}/>
       </Container>
     </>
   );

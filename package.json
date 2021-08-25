@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "11.1.0",
+    "@chakra-ui/react": "^1.6.6",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^4",
+    "jotform-react": "^1.0.4",
+    "next": "^11.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-jotform": "^1.0.1",
+    "react-jotform-embed": "^1.1.1"
   },
   "devDependencies": {
     "@types/react": "17.0.19",

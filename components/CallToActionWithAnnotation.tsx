@@ -41,8 +41,8 @@ export default function CallToActionWithAnnotation() {
           </Heading>
           
           <Text color={'white'}>
-            Simply enter your name and email below and you'll be ready for a free airdrop!
-            <br></br> We're giving away $21,000 worth of
+            Simply enter your name and email below and you will be ready for a free airdrop!
+            <br></br> We are giving away $21000 worth of
             SAFERmoon tokens. Get your chance at some below!
           </Text>
           <Stack

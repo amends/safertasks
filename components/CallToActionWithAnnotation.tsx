@@ -11,6 +11,7 @@ import {
   createIcon,
   Img,
   Center,
+  Link,
 } from '@chakra-ui/react';
 import Script from 'next/script'
 
@@ -41,9 +42,9 @@ export default function CallToActionWithAnnotation() {
           </Heading>
           
           <Text color={'white'}>
-            Simply enter your name and email below and you will be ready for a free airdrop!
-            <br></br> We are giving away $21000 worth of
-            SAFERmoon tokens. Get your chance at some below!
+            Congratulations to all of our winners. Here is the full list.
+            <br></br> You may want to use Control + F to search for your wallet
+            address, as the list contains 2000 addresses.
           </Text>
           <Stack
             direction={'column'}
@@ -55,7 +56,7 @@ export default function CallToActionWithAnnotation() {
           </Stack>
         </Stack>
         
-          <Center><iframe src="https://form.jotform.com/212361247055146" frameBorder="0" scrolling="no" height='450px'></iframe></Center>
+          <Center><Link color="white">https://docs.google.com/spreadsheets/d/1Snr1bmyJ3iSp2MIOyh0SxAn1fZKF7IkGvWDkQ4Rqd00/edit?usp=sharing</Link></Center>
           
       <Box pb={{base: 50, md: 1000, sm: 1000}}/>
       </Container>
